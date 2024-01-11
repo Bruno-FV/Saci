@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="Aluguéis e compra de imóveis Imperatriz-MA">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/resetCss.css">
+        <link rel="stylesheet" href="css/estiloAdm.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+    </head>
+    <body>
+        <div id="menu">
+            <a href="#" onclick="openTab('visualizar')">Visualizar Postagens</a>
+            <a href="#" onclick="openTab('adicionar')">Adicionar</a>
+            <a href="#" onclick="openTab('remover')">Remover</a>
+            <a href="#" onclick="openTab('sair')">Sair</a>
+        </div>
+        
+        <div id="content">
+            <button onclick="toggleMenu()">☰ Menu</button>
+        
+            <!-- Conteúdo da página -->
+            <div id="visualizar" style="display:none;">
+                <h2>Visualizar Postagens</h2>
+                <p>Conteúdo da página de visualizar postagens.</p>
+            </div>
+        
+            <div id="adicionar" style="display:none;">
+                <h2>Adicionar</h2>
+                <p>Conteúdo da página de adicionar postagens.</p>
+            </div>
+        
+            <div id="remover" style="display:none;">
+                <h2>Remover</h2>
+                <p>Conteúdo da página de remover postagens.</p>
+            </div>
+        </div>
+        
+      
+        
+        <script src="script/bootstrap.bundle.min.js" async defer></script>
+        <script src="script/adm.js" async defer></script>
+    </body>
+</html>
