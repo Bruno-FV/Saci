@@ -27,7 +27,7 @@ A aplicação fornecerá:
 ![Caso de Uso](https://github.com/Bruno-FV/Saci/assets/60984829/06271799-8969-436d-b30b-b565a0055e7f)
 
 ### Diagrama de Clases
-![Class Diagram01](https://github.com/Bruno-FV/Saci/assets/60984829/ab58bd63-388f-4be4-8fa4-296035449031)
+![Class Diagram](https://github.com/Bruno-FV/Saci/assets/60984829/073685fe-6707-4e16-8169-e4aa09c09c2a)
 
 ## Requisitos Funcionais
 
