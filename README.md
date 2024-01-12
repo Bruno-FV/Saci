@@ -22,9 +22,12 @@ A aplicação fornecerá:
 - **Outras Tecnologias:** Html, Css, JavaScript, Bootstrap
 
 ## Arquitetura do Sistema
+
+### Diagrama de caso de Uso
 ![Caso de Uso](https://github.com/Bruno-FV/Saci/assets/60984829/06271799-8969-436d-b30b-b565a0055e7f)
 
-Incluir diagramas (caso de uso, classes, sequência) para ilustrar a arquitetura e fluxo de processos do sistema.
+### Diagrama de Clases
+![Class Diagram01](https://github.com/Bruno-FV/Saci/assets/60984829/ab58bd63-388f-4be4-8fa4-296035449031)
 
 ## Requisitos Funcionais
 
