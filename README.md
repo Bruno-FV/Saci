@@ -23,7 +23,11 @@ A aplicação fornecerá:
 
 ## Arquitetura do Sistema
 
-Incluir diagramas (caso de uso, classes, sequência) para ilustrar a arquitetura e fluxo de processos do sistema.
+### Diagrama de caso de Uso
+![UseCase Diagram](https://github.com/Bruno-FV/Saci/assets/60984829/431bfdad-b00a-4e15-8233-ba900218ad40)
+
+### Diagrama de Clases
+![Class Diagram](https://github.com/Bruno-FV/Saci/assets/60984829/073685fe-6707-4e16-8169-e4aa09c09c2a)
 
 ## Requisitos Funcionais
 
