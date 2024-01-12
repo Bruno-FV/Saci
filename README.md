@@ -22,6 +22,7 @@ A aplicação fornecerá:
 - **Outras Tecnologias:** Html, Css, JavaScript, Bootstrap
 
 ## Arquitetura do Sistema
+[caso de uso Saci.pdf](https://github.com/Bruno-FV/Saci/files/13909739/caso.de.uso.Saci.pdf)
 
 Incluir diagramas (caso de uso, classes, sequência) para ilustrar a arquitetura e fluxo de processos do sistema.
 
