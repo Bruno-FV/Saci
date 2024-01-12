@@ -24,7 +24,7 @@ A aplicação fornecerá:
 ## Arquitetura do Sistema
 
 ### Diagrama de caso de Uso
-![Caso de Uso](https://github.com/Bruno-FV/Saci/assets/60984829/06271799-8969-436d-b30b-b565a0055e7f)
+![UseCase Diagram](https://github.com/Bruno-FV/Saci/assets/60984829/431bfdad-b00a-4e15-8233-ba900218ad40)
 
 ### Diagrama de Clases
 ![Class Diagram](https://github.com/Bruno-FV/Saci/assets/60984829/073685fe-6707-4e16-8169-e4aa09c09c2a)
