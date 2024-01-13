@@ -5,11 +5,12 @@ import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
 import jakarta.persistence.Table;
+import jakarta.validation.constraints.NotNull;
 
 import java.io.Serializable;
 import java.util.UUID;
 
-import io.micrometer.common.lang.NonNull;
+
 
 
 @Entity
@@ -20,12 +21,13 @@ public class CadastrarCorretor implements Serializable {
    @Id
    @GeneratedValue(strategy = GenerationType.AUTO)
    private UUID id;
+   @NotNull
    private String nomeCorretor;
-   @NonNull
+   @NotNull
    private String emailCorretor;
-   @NonNull
+   @NotNull
    private String senhaCorretor;
-   @NonNull
+   @NotNull
    private String contatoCorretor;
 
    public UUID getId() {

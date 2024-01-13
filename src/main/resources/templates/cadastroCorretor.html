@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Aluguéis e compra de imóveis Imperatriz-MA">
+    <title>Formulário de Cadastro</title>
+    
+    <link rel="stylesheet" href="css/resetCss.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estiloGeral.css">
+</head>
+<body>
+
+<div class="container mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="card">
+                <div class="card-header">
+                    <h4>Cadastro de Corretor</h4>
+                </div>
+                <div class="card-body">
+                    <!-- Adicione o atributo "novalidate" para desabilitar a validação do navegador -->
+                    <form action="/cadastro" method="post" novalidate enctype="application/x-www-form-urlencoded">
+                        <div class="form-group">
+                            <label for="nomeCorretor">Nome:</label>
+                            <input type="text" class="form-control" id="nomeCorretor" name="nomeCorretor" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="emailCorretor">Email:</label>
+                            <input type="email" class="form-control" id="emailCorretor" name="emailCorretor" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="senhaCorretor">Senha:</label>
+                            <input type="password" class="form-control" id="senhaCorretor" name="senhaCorretor" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="contatoCorretor">Contato:</label>
+                            <input type="text" class="form-control" id="contatoCorretor" name="contatoCorretor" required>
+                        </div>
+                        <button type="submit" class="btn btn-primary">Cadastrar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="script/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
