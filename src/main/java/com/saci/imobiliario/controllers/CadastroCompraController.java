@@ -17,6 +17,10 @@ public class CadastroCompraController {
     CadastroCompraController(CompraRepositorio compraRepositorio){
         this.compraRepositorio = compraRepositorio;
     }
+    /**
+     * @param cadastroAlugueCompralDto
+     * @return recebe as informações da view dos imovéis para salvar no banco.
+     */
     @PostMapping("/cadastroCompra")
     public ResponseEntity<String> saveCompra(CadastroAlugueCompralDto cadastroAlugueCompralDto){
         Compra cadastroCompra = new Compra();
