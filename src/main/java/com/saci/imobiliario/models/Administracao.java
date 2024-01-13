@@ -18,8 +18,8 @@ public class Administracao implements Serializable {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     private UUID id;
-    @NonNull
     @Lob
+    @NonNull
     private byte[] imagem;
     @NonNull
     private String descricao;
@@ -27,4 +27,46 @@ public class Administracao implements Serializable {
     private double valor;
     @NonNull
     private String contato;
+
+    public UUID getId() {
+        return this.id;
+    }
+
+    public void setId(UUID id) {
+        this.id = id;
+    }
+
+    public byte[] getImagem() {
+        return this.imagem;
+    }
+
+    public void setImagem(byte[] imagem) {
+        this.imagem = imagem;
+    }
+
+    public String getDescricao() {
+        return this.descricao;
+    }
+
+    public void setDescricao(String descricao) {
+        this.descricao = descricao;
+    }
+
+    public double getValor() {
+        return this.valor;
+    }
+
+    public void setValor(double valor) {
+        this.valor = valor;
+    }
+
+    public String getContato() {
+        return this.contato;
+    }
+
+    public void setContato(String contato) {
+		this.contato = contato;
+	}
 }
+
+    

@@ -8,6 +8,6 @@ import com.saci.imobiliario.models.CadastrarCorretor;
 import java.util.UUID;
 
 @Repository
-public interface SaciRepositorio extends JpaRepository<CadastrarCorretor, UUID> {
+public interface CadastroCorretorRepositorio extends JpaRepository<CadastrarCorretor, UUID> {
     
 }

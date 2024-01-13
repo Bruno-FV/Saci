@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="css/resetCss.css">
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/estiloGeral.css">
+    </head>
+    <body>
+        <form action="/cadastroAluguel" method="post" class="mx-auto mt-xxl-3 ">
+            <div class="row g-3 m-3">
+                <div class="mb-1 col-auto">
+                <label for="valor">Valor</label>
+                  <input type="text" class="form-control" id="valor" aria-label="valor" name="valor">
+                </div>
+                <div class="mb-1 col-auto">
+                    <label for="contato">Contato</label>
+                      <input type="text" class="form-control" id="contato" aria-label="contato" name="contato">
+                    </div>
+                <div class="mb-1 m-2 col-8">
+                    <label for="imagens" class="form-label">Selecionar imagens</label>
+                    <input class="form-control" type="file" multiple id="imagem" name="imagem">
+                </div>
+                <div class=" mb-1">
+                    <label for="descricao" class="form-label">Descrição</label>
+                    <textarea class="form-control form-control-lg" id="descricao" name="descricao" rows="4"></textarea>
+                </div>
+                <button type="submit">Salvar</button>
+            </div>
+          </form>
+        
+          <script src="script/bootstrap.bundle.min.js"></script>
+    </body>
+</html>

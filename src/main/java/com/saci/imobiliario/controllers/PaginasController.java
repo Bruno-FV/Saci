@@ -10,7 +10,15 @@ public class PaginasController {
         return "home";
     }
     @GetMapping("/cadastro")
-    public String cadastro(){
+    public String cadastroCorretor(){
         return "cadastroCorretor";
+    }
+    @GetMapping("/aluguel")
+    public String cadastroAluguel(){
+        return "cadastroAluguel";
+    }
+    @GetMapping("/compra")
+    public String cadastroCompra(){
+        return "cadastroCompra";
     }
 }

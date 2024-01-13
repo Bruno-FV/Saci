@@ -7,24 +7,24 @@ import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.RestController;
 
-import com.saci.imobiliario.dtos.SaciCadastroCorretorDto;
+import com.saci.imobiliario.dtos.CadastroCorretorDto;
 import com.saci.imobiliario.models.CadastrarCorretor;
-import com.saci.imobiliario.repositorys.SaciRepositorio;
+import com.saci.imobiliario.repositorys.CadastroCorretorRepositorio;
 
 
 import org.springframework.web.bind.annotation.PostMapping;
 
 
 @RestController
-public class AdminController {
+public class CadastroCorretorController {
 
-    final SaciRepositorio saciRepositorio;
-
-    AdminController(SaciRepositorio saciRepositorio) {
+    final CadastroCorretorRepositorio saciRepositorio;
+    
+    CadastroCorretorController(CadastroCorretorRepositorio saciRepositorio) {
         this.saciRepositorio = saciRepositorio;
     }
     @PostMapping("/cadastro")
-    public ResponseEntity<String> saveCorretor(SaciCadastroCorretorDto saciCadastroCorretorDto) {
+    public ResponseEntity<String> saveCorretor(CadastroCorretorDto saciCadastroCorretorDto) {
     var cadastrarCorretor = new CadastrarCorretor();
     BeanUtils.copyProperties(saciCadastroCorretorDto, cadastrarCorretor);
 
@@ -38,6 +38,6 @@ public class AdminController {
         "   window.location.href = '/';" +
         "</script>"
     );
-}
+    }
 
 }
