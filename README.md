@@ -98,12 +98,12 @@ Histórico de Revisões:
 | Data       | Versão | Descrição                   | Responsável            |
 |------------|--------|-----------------------------|------------------------|
 | 18/11/2023 | 0.1    | Levantamento dos requisitos | Bruno Ferreira Vieira |
-| 02/12/2019 | 0.2    | Especificação dos requisitos | Bruno Ferreira Vieira |
-| 03/12/2019 | 0.3    | Inclusão das prioridades do sistema | Bruno Ferreira Vieira |
-| 04/12/2019 | 0.4    | Inclusão dos requisitos funcionais | Bruno Ferreira Vieira |
-| 04/12/2019 | 0.5    | Inclusão dos requisitos não funcionais | Bruno Ferreira Vieira |
-| 05/12/2019 | 1.0    | Declaração do escopo não contemplado | Bruno Ferreira Vieira |
-| 05/12/2019 | 1.1    | Finalização do documento de requisito | Bruno Ferreira Vieira |
+| 18/11/2023 | 0.2    | Especificação dos requisitos | Bruno Ferreira Vieira |
+| 18/11/2023 | 0.3    | Inclusão das prioridades do sistema | Bruno Ferreira Vieira |
+| 18/11/2023 | 0.4    | Inclusão dos requisitos funcionais | Bruno Ferreira Vieira |
+| 18/11/2023 | 0.5    | Inclusão dos requisitos não funcionais | Bruno Ferreira Vieira |
+| 18/11/2023 | 1.0    | Declaração do escopo não contemplado | Bruno Ferreira Vieira |
+| 18/11/2023 | 1.1    | Finalização do documento de requisito | Bruno Ferreira Vieira |
 
 ## Escopo Não Contemplado
 
